@@ -78,9 +78,14 @@ or from https://conda.io/miniconda.html.
 
 After installing Anaconda or Miniconda:
 
+User Installation
+~~~~~~~~~~~~~~~~~
+
 ::
 
-    $ conda install -c conda-forge rapidpy
+    $ conda create -n rapid
+    $ source activate rapid
+    (rapid)$ conda install -c conda-forge rapidpy
 
 
 Developer Installation
